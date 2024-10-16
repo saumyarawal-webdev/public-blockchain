@@ -4,7 +4,7 @@ step 1 : make folder with name "public-blockchain"
 
 step 2 : cd public-blockchain
 
-step 3 : npm init -y
+step 3 : npm init -y && npm install express body-parser
 
 step 4 : download and install postman in pc.
 
