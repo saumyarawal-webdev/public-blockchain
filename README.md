@@ -13,8 +13,8 @@ cd public-blockchain
 ## step 3 : Run Following commands in Terminal
 ## cmd
 ```console
-public-blockchain> npm init -y
-public-blockchain> npm install express body-parser
+npm init -y
+npm install express body-parser
 ```
 
 step 4 : download and install postman in pc.
@@ -33,10 +33,28 @@ step 6 :
 ```plaintext
 http://localhost:3000/blockchain
 ```
+It is used to get the current blockchain.
 ## POST request
 ```plaintext
 http://localhost:3000/mineBlock
 ```
+It is used to make post request with data.
+    1. select **post**method.
+    2. Go to **Body**.
+    3. Select **raw** with **JSON**
+    4. Paste the JSON object in it like this:
+    **sample JSON**
+    ```json
+    {
+    "index": 1,
+    "timestamp": "10/16/2024",
+    "data": {
+        "sender": "Alice",
+        "receiver": "Bob",
+        "amount": 10
+    }
+}
+    ```
 ## Verify blockchain 
 ```plaintext
 http://localhost:3000/verify
