@@ -19,11 +19,26 @@ step 5 :
 node server6.js
 ```
 
-step 6 : use following urls in postman for getting existing blocks, add/mine new block, delete block.
+step 6 : 
 
-GET: http://localhost:3000/blockchain
-POST: http://localhost:3000/mineBlock
-Verify : http://localhost:3000/verify
-Delete: http://localhost:3000/delete/{index}
+## use following urls in postman for getting existing blocks, add/mine new block, delete block.
+
+## GET request
+```plaintext
+http://localhost:3000/blockchain
+```
+## POST request
+```plaintext
+http://localhost:3000/mineBlock
+```
+## Verify blockchain 
+```plaintext
+http://localhost:3000/verify
+```
+## Delete: 
+```plaintext
+http://localhost:3000/delete/{index}
+```
+
 
 while mining block go to body, select json, add new object and click send.
