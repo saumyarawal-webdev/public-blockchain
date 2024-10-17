@@ -13,7 +13,11 @@ npm install express body-parser
 
 step 4 : download and install postman in pc.
 
-step 5 : execute command "node server6.js"
+step 5 : 
+## execute following command
+```console
+node server6.js
+```
 
 step 6 : use following urls in postman for getting existing blocks, add/mine new block, delete block.
 
