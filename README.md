@@ -6,7 +6,7 @@ step 2 : cd public-blockchain
 
 step 3 : Run Following commands
 ## cmd
-```cmd
+```console
 npm init -y
 npm install express body-parser
 ```
