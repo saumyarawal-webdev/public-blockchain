@@ -1,14 +1,20 @@
 # public-blockchain
 
-step 1 : make folder with name "public-blockchain"
+## step 1 : make folder with name "public-blockchain"
+```console
+mkdir public-blockchain
+```
 
-step 2 : cd public-blockchain
+## step 2 : Change Path 
+```console
+cd public-blockchain
+``` 
 
-step 3 : Run Following commands
+## step 3 : Run Following commands in Terminal
 ## cmd
 ```console
-npm init -y
-npm install express body-parser
+public-blockchain> npm init -y
+public-blockchain> npm install express body-parser
 ```
 
 step 4 : download and install postman in pc.
