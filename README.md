@@ -54,7 +54,8 @@ It is used to make post request with data.
         "amount": 10
     }
 }
-    ```
+```
+
 ## Verify blockchain 
 ```plaintext
 http://localhost:3000/verify
