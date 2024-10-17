@@ -44,7 +44,7 @@ It is used to make post request with data.
     3. Select **raw** with **JSON**
     4. Paste the JSON object in it like this:
     **sample JSON**
-    ```javascript
+```javascript
     {
     "index": 1,
     "timestamp": "10/16/2024",
